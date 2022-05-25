@@ -76,7 +76,6 @@ const TodoList = () => {
   return (
     <div className="box">
       <div className="todolist-box">
-        <h1>things to do</h1>
         <AddForm addTodo={addTodo} />
         <ul>
           {todoList.map((todoInfo) => {
