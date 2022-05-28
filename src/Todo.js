@@ -49,7 +49,7 @@ const Todo = memo(
     return (
       <li className="list">
         <span className="check" onClick={toggleCheck(id)}>
-          {isChecked ? "◼" : "◻"}
+          {isChecked ? "🔴" : "⭕️"}
         </span>
         {isUpdate || (
           <span
